@@ -12,7 +12,7 @@
    <methodparam><type>mixed</type><parameter>var</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Determine whether a variable is considered to be empty. A variable is considered empty if it does not exist or if its value equals &false;. <function>empty</function> does not generate a warning if the variable does not exist.
+   Determine whether a variable is considered to be empty. A variable is considered empty if it does not exist or if its value equals &false; (see <link linkend="language.types.boolean.casting">converting to boolean</link>). <function>empty</function> does not generate a warning if the variable does not exist.
   </para>
  </refsect1>
  <refsect1 role="parameters">
@@ -113,6 +113,7 @@ bool(true)
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><link linkend="language.types.boolean">Booleans</link></member>
     <member><function>isset</function></member>
     <member><link linkend="object.isset">__isset()</link></member>
     <member><function>unset</function></member>
